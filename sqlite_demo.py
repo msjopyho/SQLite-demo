@@ -49,6 +49,12 @@ insert_emp(emp_2)
 emps = get_emps_by_name('Doe')
 print(emps)
 
+update_pay(emp_2, 95000)
+remove_emp(emp_1)
+
+emps = get_emps_by_name('Doe')
+print(emps)
+
 # # using DB API placeholder to input
 # # using tuple for all the values
 # # c.execute("INSERT INTO employees VALUES (?, ?, ?)", (emp_1.first, emp_1.last, emp_1.pay))
